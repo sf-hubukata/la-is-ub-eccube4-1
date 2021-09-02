@@ -63,8 +63,8 @@ EOF
         $fixtures = $loader->getFixtures();
         $executer->execute($fixtures);
 
-        $login_id = env('ECCUBE_ADMIN_USER', 'heroku_ecadmin');
-        $login_password = env('ECCUBE_ADMIN_PASS', 'Ubububforce@b8!');
+        $login_id = env('ECCUBE_ADMIN_USER', 'admin');
+        $login_password = env('ECCUBE_ADMIN_PASS', 'password');
 
         $eccubeConfig = $this->container->get(EccubeConfig::class);
         $encoder = new \Eccube\Security\Core\Encoder\PasswordEncoder($eccubeConfig);

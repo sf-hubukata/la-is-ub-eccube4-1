@@ -31,11 +31,10 @@
         },
         "ECCUBE_ADMIN_USER": {
             "description": "The login id of admin user.",
-            "value": "heroku_ecadmin"
+            "value": "admin"
         },
         "ECCUBE_ADMIN_PASS": {
-            "description": "The password of admin user.",
-            "value": "Ubububforce@b8!"
+            "description": "The password of admin user."
         }
     },
     "buildpacks": [

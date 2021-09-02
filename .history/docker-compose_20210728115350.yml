@@ -53,8 +53,8 @@ services:
       # ECCUBE_COOKIE_PATH: "/"
       # ECCUBE_COOKIE_LIFETIME: 0
       # ECCUBE_GC_MAXLIFETIME: 1440
-      # ECCUBE_ADMIN_USER: "heroku_ecadmin"
-      # ECCUBE_ADMIN_PASS: "Ubububforce@b8!"
+      # ECCUBE_ADMIN_USER: "admin"
+      # ECCUBE_ADMIN_PASS: "password"
     networks:
       - backend
 
